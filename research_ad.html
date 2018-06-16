@@ -9,61 +9,71 @@
 	<div  style="float: left; margin: 5px 20px 0px; width: 1000px; background-color: #FFFFFF"> 
 	<div style="left; width: 1020px; text-align: justify">
     
-    <h1 style="font-size: 20px"> 학생 연구원 모집 </h1>
+    <h1 style="font-size: 20px"> 대학원생(석사, 박사) 및 학부 연구원 모집 </h1>
 	<ul>
         <font size="3">
-        <li> 컴퓨터 시스템 연구(CPU/GPU/Memory/Storage 아키텍처, 운영체제/하이퍼바이저 등 시스템 소프트웨어)에 관심있는 학부 및 대학원생 모집</li>
-        <li> 대학원생의 경우 전액 학비 보조(<a href="./images/graduate_school.jpg">참고</a>) 및 연구비 지원이 가능하고, 학부생의 경우 연구비 지원 가능합니다. (연구 장소 및 장비 제공) </li>
-        <li> 유학 및 대학원 진학을 고려하고 있거나, 연구 경험을 해보고자 하시는 분들도 환영합니다. </li>
-        <li> 연락처: jsahn@ajou.ac.kr로 이메일을 주세요. </li>
+        <li> 컴퓨터 시스템 연구(컴퓨터 아키텍처, 운영체제, 시스템 소프트웨어)으로 연구 및 프로젝트를 하고 싶은 경우 </li>
+        <li> 대학원생의 경우 전액 학비 보조(<a href="http://software.ajou.ac.kr/bbs/board.php?tbl=notice&mode=VIEW&num=310&" target="_blank">참고</a>) 및 연구비 지원이 가능하고, 학부생의 경우 연구비 지원 가능합니다. (연구 장소 및 장비 제공) </li>
+        <li> 연락처: jsahn at ajou.ac.kr로 이메일을 주세요. </li>
     </font>
 	</ul>
     
-    <br>
-
-	<h1 style="font-size: 20px"> 진행중인 연구 소개 </h1>
+	<h1 style="font-size: 20px"> 연구 소개 </h1>
     <font size="3"> 
-    본 연구실에서는 크게 미래의 클라우드 및 데이터센터를 위한 컴퓨터 시스템 전반(아키텍처, 운영체제, 가상 머신, 런타임 시스템)에 관심을 가지고 연구를 진행하고 있습니다.
+    현재 연구실에서는 멀티코어 아키텍처와 시스템 소프트웨어(운영체제, 하이퍼바이저, 컴파일러) 사이의 인터렉션을 통해서 효율성을 개선하는 연구를 진행하고 있습니다. 몇가지를 적어 보았습니다.
     이 외에도 관심있는 분야를 같이 공부하자고 제안하셔도 좋습니다.
-    </font> <p> 
+    </font> 
+    <p>
+    <img alt="" title="Research area of CSL @ Ajou" src="./images/lab_intro.png" width = "800"/>
+    <p>
+
+    <li>
+        <font size="3"> <b> 1. JVM (Java Virtual Machine) 분석 및 Garbage collection 개선</b><p>
+        - JVM은 Java 언어로 작성된 애플리케이션이 동작하는데 중심이 되는 역할을 수행함 <br>
+        - JVM을 최신 하드웨어(CPU, GPU, FPGA 등)에 최적화 하여 성능을 개선하는 연구 <br>
+        - 한 가지 예로 garbage collection의 개선을 통해 효율성을 개선 <br>
+        </font>
+    </li>        
+
     <br>
 
-    <ol>
-        <li>
-            <font size="3"> <b> 새로운 컴퓨팅 자원(GPU, FPGA Accelerator, NVM 등등)을 활용한 분산 데이터 분석 플랫폼(Apache Spark) 개선 </b><p>
-            
-            - 기존 Apache Spark의 경우 CPU 중심으로 설계가 되어 있는데 이를 GPU 및 Accelerator를 활용하여 성능을 개선하는 방향 <br>
-            - 이종의 메모리(heterogenous memory)가 사용될 경우에 memory management를 어떻게 하는것이 in-memory computing에서 좋을지에 관한 연구 <p>
-            </font>
-            <img alt="" title="Emerging computing resources and platforms" src="./images/emerging_dev.png"/> <p> 
-        </li>        
+    <li>  
+        <font size="3"> <b> 2. 머신 러닝 기법을 활용한 시스템 자원 관리 개선 </b> <p>
+            - 기존의 Linux 운영체제에 구현되어 있는 리소스(메모리, 스토리지) 관리 기법을 머신 러닝 기법 적용을 통해서 가능성을 알아보는 연구 <br>
+            - 예를 들면 자원의 사용량을 예측할 때 머신 러닝을 적용하여 좀 더 정확히 예측을 하는 방안 <br>
+        </font>
+    </li>
 
-        <br>
-
-        <li>  
-            <font size="3"> <b> 가상 머신 기반의 클라우드 환경을 고려한 아키텍처 설계 및 시스템 소프트웨어 설계 및 구현</b> <p>
-        
-                - 오픈 소스 하이퍼바이저(Xen / KVM)을 기반으로 새로운 메모리 메니지 관리 기법,  프로세서 스케줄링 기법을 개선 등의 연구 <br>
-                - 아키텍처 관점에서 가상화된 환경을 위해 컴퓨터 프로세서를 어떻게 설계하는 것이 효율적인지에 관한 연구 <br>
-                - 최근의 프로세서에 도입된 기술들 (캐쉬 공간 관리, 메모리 밴드위스 관리 등)을 활용한 자원관리 연구 등 <p>
-            </font>
-            
-            <img alt="" title="Summary of Research" src="./images/research_summary.png"/> <p> 
-        </li>
-
-        <br>
+    <br>
     
-        <li>
-            <font size="3"> <b> 미래의 클라우드 환경을 위한 컴퓨터 아키텍처(CPU/GPU) 개선 (Microarchitecture, Cache organization, Virtual memory support 등)</b> <p>
+    <li>
+        <font size="3"> <b> 3. 컴퓨팅 자원 (Processor, Cache, TLB, Memory)의 효율적인 공유 방안에 대한 연구</b> <p>
+            - 코어의 수가 많아 짐에 따라 다양한 애플리케이션이 하나의 머신위에서 동작하는 경우가 많음 <br>
+            - 운영체제/애플리케이션 혹은 서로 다른 애플리케이션이 마이크로아키텍처 자원을 공유함으로써 발생하는 비효율성 분석<br>
+            - 자원을 할당하거나 공유해서 사용하는 새로운 기법 제안 등 <br>
+        </font>
+    </li>
 
-                - 많은 양의 데이터를 처리하는 응용프로그램의 메모리를 효율적으로 관리하는 기법(Virtual memory) 연구 <br>
-            - 하드웨어적으로 가상 주소를 변환을 빠르게 해주는 TLB 구조 개선 연구 <br>
-            - 클라우드 환경에서 자주 사용되는 응용프로그램들의 메모리 사용 특징을 분석하고 이를 소프트웨어/하드웨어로 개선할 수 있는 방향에 대해서 고민 <p>
-            </font>
-            <img alt="" title="Emerging architecture" src="./images/emerging_arch.png"/> <p> 
-        </li>
+    <br>
 
-    </ol>
-    
+    <li>
+        <font size="3"> <b> 4. 많은 양의 메모리를 효율적으로 지원하기 위한 메모리 연구</b> <p>
+            - 단일 시스템을 넘어서 분산된 컴퓨팅 환경에서 메모리 자원(Remote DMA)을 어떻게 관리 할 것인지에 관한 연구 <br>
+            - 메모리 접근의 비대칭성 (Non Uniform Memory Access)를 고려한 메모리 관리 기법 등 <br>
+        </font>
+    </li>
+
+    <br>
+
+    <h1 style="font-size: 20px"> 관련 교과목 </h1>
+    <font size="3">
+        <li> Computer Organization and Architecture </li>
+        <li> Operating Systems </li>
+        <li> System Programming </li>
+        <li> Compiler </li>
+    </li>
+    </font> <p>
+
+
 </body>
 </html>
