@@ -4,7 +4,8 @@ body {
 	font-size: 12px;
 	font-family: Verdana, "Malgun Gothic", Dotum, Arial, Sans-Serif;
 	padding: 0;
-	margin: 0;
+    width: 800px;
+	margin: 0 auto;
 }
 
 a { position: relative; }
