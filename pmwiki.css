@@ -9,6 +9,18 @@ body {
 	margin: 0 auto;
 }
 
+strong, b
+{
+    font-weight: 400;
+    color: #363636;
+}
+
+h1, h2, h3, h4,h5, h6
+{
+    font-weight: 400;
+    color: #363636;
+}
+
 a { position: relative; }
   
 a:link, a:visited {
@@ -124,18 +136,6 @@ table.main
 #content textarea {
   width:750px; height:30em;
   font-family: Verdana, monospace;
-}
-
-#content h1 {
-  font-size: 1.7em;
-}
-
-#content h2 {
-  font-size: 1.4em;
-}
-
-#content h3 {
-  font-size: 1.2em;
 }
 
 #content ul {
