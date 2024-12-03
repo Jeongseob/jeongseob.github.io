@@ -4,22 +4,68 @@ title: Home
 ---
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
-  <h4>Short Bio</h4>
-  I am an associate professor in the School of Electrical Engineering (Computer Division)
-  and am also affiliated with the Department of Communications Engineering at Korea University.
-  I am interested in building high-performance computer systems.
-  Before joining Korea University, I spent six and a half years at Ajou University.
-  Prior to joining Ajou, I contributed to building a large-scale data analytics system with specialized hardware (called RAPID) at Oracle Labs.
-  I finished my PhD in computer science at KAIST in 2015.
+    <h4>Short Bio</h4>
+    I am an associate professor in the School of Electrical Engineering (Computer Division)
+    and am also affiliated with the Department of Communications Engineering at Korea University.
+    I am interested in building high-performance computer systems.
+    Before joining Korea University, I spent six and a half years at Ajou University.
+    Prior to joining Ajou, I contributed to building a large-scale data analytics system with specialized hardware (called RAPID) at Oracle Labs.
+    I finished my PhD in computer science at KAIST in 2015.
 </div>
 
 <!-- ========== Teaching ========== -->
 <div class="docs-section" id="teaching">
-  <h4>Teaching</h4>
-  	* KECE210: Digital Systems and Design Laboratory (Fall 2024) <br>
-	* COMM106: Basic Programming (Fall 2024) <br>
-	* COMM206: Logic Circuit Design (Fall 2024) <br>
-	* ECE521: Parallel Processing (Spring 2024) <br>
-	* COMM205: Basic Logic Circuit (Spring 2024) <br>
-  </ul>
+    <h4>Teaching</h4>
+    * KECE210: Digital Systems and Design Laboratory (Fall 2024) <br>
+    * COMM106: Basic Programming (Fall 2024) <br>
+    * COMM206: Logic Circuit Design (Fall 2024) <br>
+    * ECE521: Parallel Processing (Spring 2024) <br>
+    * COMM205: Basic Logic Circuit (Spring 2024) <br>
+    </ul>
+</div>
+
+<!-- ========== Teaching ========== -->
+<div class="docs-section" id="teaching">
+    <h4>Selected Publications</h4>
+    <div class="tab-content">
+        <div class="tab-pane active" id="papers-selected">
+            {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+            {% for paper in selected_papers %}
+            <div class="paper">
+                <p class="title">
+                <b>{{ paper.title }}</b>
+                {% if paper.paper_pdf %}
+                [ <a href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.slides %}
+                | <a href="{{ paper.slides }}" target="_blank">Slides</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                | <a  href="{{ paper.poster }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                | <a href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                | <a href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+
+                {% if paper.data %}
+                | <a href="{{ paper.data }}" target="_blank">Data</a>
+                {% endif %}
+
+                {% if paper.paper_pdf %}
+                ]
+                {% endif %}
+                </p>
+                <p>{{ paper.authors }}</p>
+                <p><i>{{ paper.venue }}</i></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
