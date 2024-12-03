@@ -1,0 +1,144 @@
+papers:
+
+  - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
+    authors: "Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, Jongse Park, and Jaehyuk Huh"
+    venue: "IEEE International Conference on Computer Design (ICCD), November 2024"
+    selected: y
+
+  - title: "EnvPipe: Performance-preserving DNN Training Framework for Saving Energy"
+    authors: "Sangjin Choi, Inhoe Koo, Jeongseob Ahn, Myeongjae Jeon, and Youngjin Kwon"
+    venue: "USENIX Annual Technical Conference (ATC), July 2023"
+    selected: y
+
+  - title: "Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access"
+    authors: "Jinwoo Jeong, Seungsu Baek, and Jeongseob Ahn"
+    venue: "ACM European Conference on Computer Systems (EuroSys), May 2023"
+    selected: y
+
+  - title: "Rethinking DRAM's page mode with STT-MRAM"
+    authors: "Byoungchan Oh,  Nilmini Abeyratne, Nam Sung Kim, Jeongseob Ahn, Ronald Dreslinski, and Trevor Mudge"
+    venue: "IEEE Transactions on Computers (TC), 72(5), May 2023"
+    selected: n
+
+  - title: "Server Load and Network-aware Adaptive Deep Learning Inference Offloading for Edge Platforms"
+    authors: "Jungmo Ahn, Youngki Lee, Jeongseob Ahn, and JeongGil Ko"
+    venue: "Elsevier Internet of Things (IoT), 21, April 2023"
+    selected: n
+
+  - title: "Memory Harvesting in Multi-GPU Systems with Hierarchical Unified Virtual Memory"
+    authors: "Sangjin Choi, Taeksoo Kim, Jinwoo Jeong, Rachata Ausavarungnirun, Myeongjae Jeon, Youngjin Kwon, and Jeongseob Ahn"
+    venue: "USENIX Annual Technical Conference (ATC), July 2022"
+    selected: y
+
+  - title: "Rethinking Remote Memory Placement on Large-Memory Systems with Path Diversity"
+    authors: "Wonkyo Choe, Sang-Hoon Kim, and Jeongseob Ahn"
+    venue: "ACM SIGOPS Asia-Pacific Workshop on Systems (APSys), August 2021"
+    selected: y
+
+  - title: "Exploring the Design Space of Page Management for Multi-Tiered Memory Systems"
+    authors: "Jonghyeon Kim, Wonkyo Choe, and Jeongseob Ahn"
+    venue: "USENIX Annual Technical Conference (ATC), July 2021"
+    selected: y
+
+  - title: " Zico: Efficient GPU Memory Sharing for Concurrent DNN Training"
+    authors: "Gangmuk Lim, Jeongseob Ahn, Wencong Xiao, Youngjin Kwon, and Myeongjae Jeon"
+    venue: "USENIX Annual Technical Conference (ATC), July 2021"
+    selected: y
+
+  - title: "A Study of Memory Placement on Hardware-assisted Tiered Memory Systems "
+    authors: "Wonkyo Choe, Jonghyeon Kim, and Jeongseob Ahn"
+    venue: "IEEE Computer Architecture Letters (CAL), 19(2), July-December 2020"
+    selected: y
+
+  - title: "Reconciling Time Slice Conflicts of Virtual Machines with Dual Time Slice for Clouds"
+    authors: "Taeklim Kim, Chang Hyun Park, Jaehyuk Huh, and Jeongseob Ahn"
+    venue: "IEEE Transactions on Parallel and Distributed Systems (TPDS), 31(10), October 2020"
+    selected: y
+
+  - title: "LightCert: On Designing a Lighter Certificate for Resource-limited Internet of Things Devices"
+    authors: "Hyuksang Kwon, Jeongseob Ahn, and JeongGil Ko"
+    venue: "Transactions on Emerging Telecommunications Technologies (ETT), 30(10), September 2019"
+    selected: n
+
+  - title: "Caliper: Interference Estimator for Multi-tenant Environments Sharing Architectural Resources"
+    authors: "Ram Srivatsa Kannan, Michael Laurenzano, Jeongseob Ahn, Jason Mars, and Lingjia Tang"
+    venue: "ACM Transactions on Architecture and Code Optimization (TACO), 16(3), May 2019"
+    selected: y
+
+  - title: "GrandSLAm: Guaranteeing SLAs for Jobs in Microservices Execution Frameworks"
+    authors: "Ram Srivatsa Kannan, Lavanya Subramanian, Ashwin Raju, Jeongseob Ahn, Jason Mars, and Lingjia Tang"
+    venue: "ACM European Conference on Computer Systems (EuroSys), March 2019"
+    selected: y
+
+  - title: "A Load Balancing Technique for Memory Channels"
+    authors: "Byoungchan Oh, Nam Sung Kim, Jeongseob Ahn, Bingchao Li, Ronald Dreslinski, and Trevor Mudge"
+    venue: "International Symposium on Memory Systems (MEMSYS), October 2018"
+    selected: n
+
+  - title: "Deduplicating TLB Entries for Shared Pages"
+    authors: "Jeongseob Ahn"
+    venue: "IEICE Electronics Express (<strong>ELEX</strong>), 15(14), July 2018"
+    selected: n
+ 
+  - title: "Accelerating Critical OS Services in Virtualized Systems with Flexible Micro-sliced Cores"
+    authors: "Jeongseob Ahn, Chang Hyun Park, Taekyung Heo, and Jaehyuk Huh"
+    venue: "ACM European Conference on Computer Systems (EuroSys), April 2018"
+    selected: y
+
+  - title: "How Much Computation Power do you need for Near-Data Processing in Cloud?"
+    authors: "Namhyung Kim, Jeongseob Ahn, Sungpack Hong, Hassan Chafi, and Kiyoung Choi"
+    venue: "Workshop on Architectures and Systems For Big Data (ASBD), June 2017"
+    selected: n
+
+  - title: "Enhancing DRAM Self-Refresh Modes for Idle Power Reduction"
+    authors: "Byoungchan Oh, Nilmini Abeyratne, Jeongseob Ahn, Ronald Dreslinski, and Trevor Mudge"
+    venue: "IEEE International Symposium on Low Power Electronics and Design (ISLPED), August 2016"
+    selected: n
+
+  - title: "Fast Two-level Address Translation for Virtualized Systems"
+    authors: "Jeongseob Ahn, Seongwook Jin, and Jaehyuk Huh"
+    venue: "IEEE Transactions on Computers (TC), 64(10), December 2015"
+    selected: y
+
+  - title: "H-SVM: Hardware-assisted Secure Virtual Machines under a Vulnerable Hypervisor"
+    authors: "Seongwook Jin, Jeongseob Ahn, Jinho Seol, Sanghoon Cha, Jaehyuk Huh, and Seungryoul Maeng"
+    venue: "IEEE Transactions on Computers (TC), 64(10), October 2015"
+    selected: y
+
+  - title: "Micro-sliced Virtual Processors to Hide the Effect of Discontinuous CPU Availability for Consolidated Systems"
+    authors: "Jeongseob Ahn, Chang Hyun Park, and Jaehyuk Huh"
+    venue: "IEEE/ACM International Symposium on Microarchitecture (MICRO), December 2014"
+    selected: y
+
+  - title: "Subspace Snooping: Exploiting Temporal Sharing Stability for Snoop Reduction"
+    authors: "Jeongseob Ahn, Daehoon Kim, Jaehong Kim, and Jaehyuk Huh"
+    venue: "IEEE Transactions on Computers (TC), 61(11), November 2012"
+    selected: y
+
+  - title: "Revisiting Hardware-Assisted Page Walks for Virtualized Systems" 
+    authors: "Jeongseob Ahn, Seongwook Jin, and Jaehyuk Huh"
+    venue: "ACM/IEEE International Symposium on Computer Architecture (ISCA), June 2012"
+    selected: y
+
+  - title: "Dynamic Virtual Machine Scheduling in Clouds for Architectural Shared Resources"
+    authors: "Jeongseob Ahn, Changdae Kim, Jaeung Han, Young-ri Choi, and Jaehyuk Huh"
+    venue: "USENIX Workshop on Hot Topics in Cloud Computing (HotCloud), June 2012"
+    selected: y
+
+  - title: "Architectural Support for Secure Virtualization under a Vulnerable Hypervisor"
+    authors: "Seongwook Jin, Jeongseob Ahn, Sanghoon Cha, and Jaehyuk Huh"
+    venue: "IEEE/ACM International Symposium on Microarchitecture (MICRO), December 2011"
+    selected: y
+
+  - title: "Subspace Snooping: Filtering Snoops with Operating System Support"
+    authors: "Daehoon Kim, Jeongseob Ahn, Jaehong Kim, and Jaehyuk Huh"
+    venue: "ACM/IEEE/IFIP International Conference on Parallel Architectures and Compilation Techniques (PACT), September 2010"
+    selected: y
+
+  - title: "The Effect of Multi-core on HPC Applications in Virtualized Systems"
+    authors: "Jaeung Han, Jeongseob Ahn, Changdae Kim, Youngjin Kwon, Young-ri Choi, and Jaehyuk Huh" 
+    venue: "Workshop on Virtualization and High-Performance Cloud Computing (VHPC), August 2010"
+    selected: n
+
+
+
