@@ -15,35 +15,6 @@ layout: default
         <div class="paper">
           <p class="title">
             <b>{{ paper.title }}</b>
-              <div class="paper-buttons">
-                {% if paper.paper_pdf %}
-                  [ <a href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-                {% endif %}
-
-                {% if paper.slides %}
-                  | <a href="{{ paper.slides }}" target="_blank">Slides</a>
-                {% endif %}
-
-                {% if paper.poster %}
-                  | <a  href="{{ paper.poster }}" target="_blank">Poster</a>
-                {% endif %}
-
-                {% if paper.video %}
-                  | <a href="{{ paper.video }}" target="_blank">Video</a>
-                {% endif %}
-
-                {% if paper.code %}
-                  | <a href="{{ paper.code }}" target="_blank">Code</a>
-                {% endif %}
-
-                {% if paper.data %}
-                  | <a href="{{ paper.data }}" target="_blank">Data</a>
-                {% endif %}
-
-                {% if paper.paper_pdf %}
-                  ]
-                {% endif %}
-          </div>
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
@@ -56,35 +27,6 @@ layout: default
         <div class="paper">
           <p class="title">
           <b>{{ paper.title }}</b>
-          <div class="paper-buttons">
-                {% if paper.paper_pdf %}
-                  [ <a href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-                {% endif %}
-
-                {% if paper.slides %}
-                  | <a href="{{ paper.slides }}" target="_blank">Slides</a>
-                {% endif %}
-
-                {% if paper.poster %}
-                  | <a  href="{{ paper.poster }}" target="_blank">Poster</a>
-                {% endif %}
-
-                {% if paper.video %}
-                  | <a href="{{ paper.video }}" target="_blank">Video</a>
-                {% endif %}
-
-                {% if paper.code %}
-                  | <a href="{{ paper.code }}" target="_blank">Code</a>
-                {% endif %}
-
-                {% if paper.data %}
-                  | <a href="{{ paper.data }}" target="_blank">Data</a>
-                {% endif %}
-
-                {% if paper.paper_pdf %}
-                  ]
-                {% endif %}
-          </div>
           </p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
