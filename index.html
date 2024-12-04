@@ -29,16 +29,21 @@ title: Home
 
 <!-- ========== Teaching ========== -->
 <div class="docs-section" id="teaching">
-    <h4>Teaching</h4>
-    	<li> KECE210: Digital Systems and Design Laboratory (Fall 2024) </li>
-	<li> COMM106: Basic Programming (Fall 2024) </li>
-	<li> COMM206: Logic Circuit Design (Fall 2024) </li>
+	<h4>Teaching <font size="3"> (Fall 2024) </font></h4>
+    	<!--
+	<li> KECE343: Computer Architecture </li>
+	<li> COMM306: Introduction to Computer Systems </li>
+	<li> COMM205: Basic Logic Circuit </li>
+	-->
+    	<li> KECE210: Digital Systems and Design Laboratory </li>
+	<li> COMM106: Basic Programming </li>
+	<li> COMM206: Logic Circuit Design </li>
 </div>
 
 <!-- ========== Publications ========== -->
 <div class="docs-section" id="recent-pubs">
-    <h4>Recent Publications</h4>
-    <div class="tab-content">
+	<h4>Recent Publications <font size="3"> (<a href={{ "/publications.html#publications" | prepend: site.baseurl }}>full list</a>)</font></h4>
+	<div class="tab-content">
         <div class="tab-pane active" id="papers-selected">
             {% assign selected_papers = site.data.publications.papers | where: "selected", "y" | slice: 0, 5 %}
             {% for paper in selected_papers %}
@@ -79,8 +84,6 @@ title: Home
             {% endfor %}
         </div>
     </div>
-
-    <b><i><a href={{ "/publications.html#publications" | prepend: site.baseurl }}>Full list</a></i></b>
 </div>
 
 <!-- ========== Services ========== -->
