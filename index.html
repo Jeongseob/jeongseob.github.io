@@ -24,12 +24,12 @@ title: Home
     </ul>
 </div>
 
-<!-- ========== Teaching ========== -->
+<!-- ========== Publications ========== -->
 <div class="docs-section" id="teaching">
-    <h4>Selected Publications</h4>
+    <h4>Recent Publications</h4>
     <div class="tab-content">
         <div class="tab-pane active" id="papers-selected">
-            {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+            {% assign selected_papers = site.data.publications.papers | where: "selected", "y" | slice: 0, 5 %}
             {% for paper in selected_papers %}
             <div class="paper">
                 <p class="title">
@@ -68,4 +68,6 @@ title: Home
             {% endfor %}
         </div>
     </div>
+
+    <b><i><a href={{ "/publications.html" | prepend: site.baseurl }}>Full list</a></i></b>
 </div>
