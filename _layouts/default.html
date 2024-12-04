@@ -77,9 +77,9 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.dept }}</p>
             <p>{{ site.data.main_info.group }}</p>
-            <p>{{ site.data.main_info.email }}</p>
-	    <br>
-            <p>
+            <p>E-mail: {{ site.data.main_info.email }}</p>
+            <p>Office: {{ site.data.main_info.office }}</p>
+	    <p>
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
                 <i class="fa-brands fa-linkedin fa-lg"></i>
               </span>
@@ -101,7 +101,7 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html" | prepend: site.baseurl }}>Home</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#teaching" | prepend: site.baseurl }}>Teaching</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/teaching.html" | prepend: site.baseurl }}>Teaching</a></li>
 	  <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/publications.html" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/students.html" | prepend: site.baseurl }}>Students</a></li>
