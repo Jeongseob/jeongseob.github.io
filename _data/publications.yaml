@@ -21,6 +21,7 @@ papers:
     paper_pdf: "assets/papers/jeong_eurosys23.pdf"
     slides: "assets/talks/jeong_eurosys2023_talk.pdf"
     code: "https://github.com/csl-ajou/DeepPlan"
+    award: "Gilles Muller Best Artifact Award"
     selected: y
 
   - title: "Rethinking DRAM's page mode with STT-MRAM"

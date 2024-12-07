@@ -46,6 +46,9 @@ title: Publications
                 </p>
                 <p>{{ paper.authors }}</p>
                 <p><i>{{ paper.venue }}</i></p>
+                {% if paper.award %}
+                <p>{{ paper.award }}</p>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
@@ -85,6 +88,9 @@ title: Publications
                 </p>
                 <p>{{ paper.authors }}</p>
                 <p><i>{{ paper.venue }}</i></p>
+                {% if paper.award %}
+                <p>{{ paper.award }}</p>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

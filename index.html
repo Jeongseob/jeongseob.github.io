@@ -21,7 +21,7 @@ title: Home
 	    <li> Server, Datacenter, and Cloud Computing </li>
     <p></p>
     <b><I>
-	I am actively looking for highly self-motivated students interested in building fast and efficient computer systems for AI, cloud, and emerging hardware. 
+	I am actively looking for highly self-motivated students interested in building fast and efficient computer systems for AI, cloud, and emerging hardware.
 	Please reach out to me with your CV and transcript.
     </I></b>
 </div>
@@ -81,6 +81,9 @@ title: Home
                 </p>
                 <p>{{ paper.authors }}</p>
                 <p><i>{{ paper.venue }}</i></p>
+                {% if paper.award %}
+                <p>{{ paper.award }}</p>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
