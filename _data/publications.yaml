@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Accelerating Page Migrations in Operating Systems with Intel DSA"
+    authors: "Jongho Baik, Jonghyeon Kim, Chang Hyun Park, and Jeongseob Ahn"
+    venue: "IEEE Computer Architecture Letters (CAL), January 2025"
+    selected: y
+
   - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
     authors: "Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, Jongse Park, and Jaehyuk Huh"
     venue: "IEEE International Conference on Computer Design (ICCD), November 2024"
