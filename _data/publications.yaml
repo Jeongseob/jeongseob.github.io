@@ -1,8 +1,14 @@
 papers:
 
+  - title: "GPU-centric Memory Tiering for LLM Serving with NVIDIA Grace Hopper Superchip"
+    authors: "Woohyung Choi, Jinwoo Jeong, Hanhwi Jang, and Jeongseob Ahn"
+    venue: "IEEE Computer Architecture Letters (CAL), January 2025"
+    selected: y
+
   - title: "Accelerating Page Migrations in Operating Systems with Intel DSA"
     authors: "Jongho Baik, Jonghyeon Kim, Chang Hyun Park, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), January 2025"
+    paper_pdf: "http://doi.org/10.1109/LCA.2025.3530093"
     selected: y
 
   - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
