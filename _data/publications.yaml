@@ -3,12 +3,13 @@ papers:
   - title: "GPU-centric Memory Tiering for LLM Serving with NVIDIA Grace Hopper Superchip"
     authors: "Woohyung Choi, Jinwoo Jeong, Hanhwi Jang, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), January 2025"
+    paper_pdf: "https://doi.org/10.1109/LCA.2025.3533588"
     selected: y
 
   - title: "Accelerating Page Migrations in Operating Systems with Intel DSA"
     authors: "Jongho Baik, Jonghyeon Kim, Chang Hyun Park, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), January 2025"
-    paper_pdf: "http://doi.org/10.1109/LCA.2025.3530093"
+    paper_pdf: "https://doi.org/10.1109/LCA.2025.3530093"
     selected: y
 
   - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
@@ -38,7 +39,7 @@ papers:
   - title: "Rethinking DRAM's page mode with STT-MRAM"
     authors: "Byoungchan Oh,  Nilmini Abeyratne, Nam Sung Kim, Jeongseob Ahn, Ronald Dreslinski, and Trevor Mudge"
     venue: "IEEE Transactions on Computers (TC), 72(5), May 2023"
-    paper_pdf: "https://ieeexplore.ieee.org/document/9893369/"
+    paper_pdf: "https://doi.org/10.1109/TC.2022.3207131"
     selected: n
 
   - title: "Server Load and Network-aware Adaptive Deep Learning Inference Offloading for Edge Platforms"
@@ -83,14 +84,14 @@ papers:
   - title: "A Study of Memory Placement on Hardware-assisted Tiered Memory Systems "
     authors: "Wonkyo Choe, Jonghyeon Kim, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), 19(2), July-December 2020"
-    paper_pdf: "https://ieeexplore.ieee.org/document/9165024"
+    paper_pdf: "https://doi.org/10.1109/LCA.2020.3015613"
     video: "https://www.youtube.com/watch?v=-CObgDzgHKc&feature=youtu.be"
     selected: y
 
   - title: "Reconciling Time Slice Conflicts of Virtual Machines with Dual Time Slice for Clouds"
     authors: "Taeklim Kim, Chang Hyun Park, Jaehyuk Huh, and Jeongseob Ahn"
     venue: "IEEE Transactions on Parallel and Distributed Systems (TPDS), 31(10), October 2020"
-    paper_pdf: "https://ieeexplore.ieee.org/document/9090316"
+    paper_pdf: "https://doi.org/10.1109/TPDS.2020.2993252"
     selected: y
 
   - title: "LightCert: On Designing a Lighter Certificate for Resource-limited Internet of Things Devices"
@@ -148,13 +149,13 @@ papers:
   - title: "Fast Two-level Address Translation for Virtualized Systems"
     authors: "Jeongseob Ahn, Seongwook Jin, and Jaehyuk Huh"
     venue: "IEEE Transactions on Computers (TC), 64(10), December 2015"
-    paper_pdf: "https://ieeexplore.ieee.org/document/7034997"
+    paper_pdf: "https://doi.org/10.1109/TC.2015.2401022"
     selected: y
 
   - title: "H-SVM: Hardware-assisted Secure Virtual Machines under a Vulnerable Hypervisor"
     authors: "Seongwook Jin, Jeongseob Ahn, Jinho Seol, Sanghoon Cha, Jaehyuk Huh, and Seungryoul Maeng"
     venue: "IEEE Transactions on Computers (TC), 64(10), October 2015"
-    paper_pdf: "https://ieeexplore.ieee.org/document/7005439"
+    paper_pdf: "https://doi.org/10.1109/TC.2015.2389792"
     selected: y
 
   - title: "Micro-sliced Virtual Processors to Hide the Effect of Discontinuous CPU Availability for Consolidated Systems"
@@ -167,7 +168,7 @@ papers:
   - title: "Subspace Snooping: Exploiting Temporal Sharing Stability for Snoop Reduction"
     authors: "Jeongseob Ahn, Daehoon Kim, Jaehong Kim, and Jaehyuk Huh"
     venue: "IEEE Transactions on Computers (TC), 61(11), November 2012"
-    paper_pdf: "https://ieeexplore.ieee.org/document/6035685"
+    paper_pdf: "https://doi.org/10.1109/TC.2011.195"
     selected: y
 
   - title: "Revisiting Hardware-Assisted Page Walks for Virtualized Systems"
