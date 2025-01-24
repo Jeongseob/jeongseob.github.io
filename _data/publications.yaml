@@ -16,7 +16,7 @@ papers:
     authors: "Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, Jongse Park, and Jaehyuk Huh"
     venue: "IEEE International Conference on Computer Design (ICCD), November 2024"
     paper_pdf: "assets/papers/kim_iccd24.pdf"
-    selected: y
+    selected: n
 
   - title: "EnvPipe: Performance-preserving DNN Training Framework for Saving Energy"
     authors: "Sangjin Choi, Inhoe Koo, Jeongseob Ahn, Myeongjae Jeon, and Youngjin Kwon"
