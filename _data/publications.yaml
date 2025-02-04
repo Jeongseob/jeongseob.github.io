@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Accelerating LLM Serving for Multi-turn Dialogues with Efficient Resource Management"
+    authors: "Jinwoo Jeong and Jeongseob Ahn"
+    venue: "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March-April 2025"
+    selected: y
+
   - title: "GPU-centric Memory Tiering for LLM Serving with NVIDIA Grace Hopper Superchip"
     authors: "Woohyung Choi, Jinwoo Jeong, Hanhwi Jang, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), January 2025"
