@@ -1,5 +1,10 @@
 papers:
 
+  - title: "Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse"
+    authors: "Jinwoo Hwang, Daeun Kim, Sangyeop Lee, Yoonsung Kim, Guseul Heo, Hojoon Kim, Yunseok Jeong, Tadiwos Meaza, Eunhyeok Park, Jeongseob Ahn, and Jongse Park"
+    venue: "International Conference on Very Large Data Bases (VLDB), September 2025"
+    selected: n
+
   - title: "Accelerating LLM Serving for Multi-turn Dialogues with Efficient Resource Management"
     authors: "Jinwoo Jeong and Jeongseob Ahn"
     venue: "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March-April 2025"
@@ -32,7 +37,7 @@ papers:
     video: "https://youtu.be/RfAq1JbHbXI?si=jb2kXmW0jRi00XIa"
     slides: "https://www.usenix.org/system/files/atc23_slides_choi-sangjin.pdf"
     code: "https://github.com/casys-kaist/EnvPipe"
-    selected: y
+    selected: n
 
   - title: "Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access"
     authors: "Jinwoo Jeong, Seungsu Baek, and Jeongseob Ahn"
