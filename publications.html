@@ -4,11 +4,11 @@ title: Publications
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <div class="docs-section" id="publications">
+    <!--
     <ul class="tab-nav">
         <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
         <li><div class="button" data-ref="#papers-all">All</div></li>
     </ul>
-
     <div class="tab-content">
         <div class="tab-pane active" id="papers-selected">
             {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
@@ -52,8 +52,9 @@ title: Publications
             </div>
             {% endfor %}
         </div>
+        -->
 
-        <div class="tab-pane" id="papers-all">
+        <div class="tab-pane active" id="papers-all">
             {% for paper in site.data.publications.papers %}
             <div class="paper">
                 <p class="title">
