@@ -3,6 +3,7 @@ papers:
   - title: "Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse"
     authors: "Jinwoo Hwang, Daeun Kim, Sangyeop Lee, Yoonsung Kim, Guseul Heo, Hojoon Kim, Yunseok Jeong, Tadiwos Meaza, Eunhyeok Park, Jeongseob Ahn, and Jongse Park"
     venue: "International Conference on Very Large Data Bases (VLDB), September 2025"
+    paper_pdf: "https://doi.org/10.14778/3748191.3748195"
     selected: n
 
   - title: "Accelerating LLM Serving for Multi-turn Dialogues with Efficient Resource Management"
