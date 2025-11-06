@@ -1,7 +1,7 @@
 papers:
   - title: "An Efficient DNN Model Serving System using Layer-wise Caching and Direct-Host-Access"
     authors: "Jinwoo Jeong and Jeongseob Ahn"
-    venue: "ACM Transactions on Computer Systems (TOCS), October 2025"
+    venue: "ACM Transactions on Computer Systems (TOCS), November 2025"
     paper_pdf: "https://dx.doi.org/10.1145/3774909"
     code: "https://github.com/Sys-KU/DeepPlan/tree/ignite"
     selected: y
