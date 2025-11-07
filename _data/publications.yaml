@@ -30,6 +30,7 @@ papers:
     authors: "Jongho Baik, Jonghyeon Kim, Chang Hyun Park, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), 24(1), January-June 2025"
     paper_pdf: "https://doi.org/10.1109/LCA.2025.3530093"
+    code: "https://github.com/Sys-KU/DSA-Linux"
     selected: y
 
   - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
