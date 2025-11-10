@@ -30,7 +30,9 @@ papers:
     authors: "Jongho Baik, Jonghyeon Kim, Chang Hyun Park, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), 24(1), January-June 2025"
     paper_pdf: "https://doi.org/10.1109/LCA.2025.3530093"
+    slides: "https://jeongseob.github.io/assets/talks/ahn_googlekorea25_talk.pdf"
     code: "https://github.com/Sys-KU/DSA-Linux"
+    note: "Presented at Linux/Android FS/MM/Storage Workshop 2025 @ Google Korea"
     selected: y
 
   - title: "Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems"
@@ -54,7 +56,7 @@ papers:
     paper_pdf: "assets/papers/jeong_eurosys23.pdf"
     slides: "assets/talks/jeong_eurosys2023_talk.pdf"
     code: "https://github.com/csl-ajou/DeepPlan"
-    award: "Gilles Muller Best Artifact Award"
+    note: "Gilles Muller Best Artifact Award"
     selected: y
 
   - title: "Rethinking DRAM's page mode with STT-MRAM"
