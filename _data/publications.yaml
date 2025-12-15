@@ -144,7 +144,7 @@ papers:
 
   - title: "Deduplicating TLB Entries for Shared Pages"
     authors: "Jeongseob Ahn"
-    venue: "IEICE Electronics Express (<strong>ELEX</strong>), 15(14), July 2018"
+    venue: "IEICE Electronics Express (ELEX), 15(14), July 2018"
     paper_pdf: "https://doi.org/10.1587/elex.15.20180528"
     selected: n
 
