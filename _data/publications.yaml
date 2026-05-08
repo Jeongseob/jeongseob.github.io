@@ -1,7 +1,7 @@
 papers:
   - title: "Towards Segmentation-based Address Translation for LLM Inference"
     authors: "Youngjoon Cheon, Yunho Oh, and Jeongseob Ahn"
-    venue: "IEEE Computer Architecture Letters (CAL)"
+    venue: "IEEE Computer Architecture Letters (CAL), 2026"
     selected: y
 
   - title: "An Efficient DNN Model Serving System using Layer-wise Caching and Direct-Host-Access"
