@@ -2,12 +2,13 @@ papers:
   - title: "Towards Segmentation-based Address Translation for LLM Inference"
     authors: "Youngjoon Cheon, Yunho Oh, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), 2026"
+    paper_pdf: "https://doi.org/10.1109/LCA.2026.3693796"
     selected: y
 
   - title: "An Efficient DNN Model Serving System using Layer-wise Caching and Direct-Host-Access"
     authors: "Jinwoo Jeong and Jeongseob Ahn"
     venue: "ACM Transactions on Computer Systems (TOCS), 44(1), January 2026"
-    paper_pdf: "https://dx.doi.org/10.1145/3774909"
+    paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3774909"
     code: "https://github.com/Sys-KU/DeepPlan/tree/ignite"
     selected: y
 
