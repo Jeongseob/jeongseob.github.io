@@ -2,11 +2,12 @@ papers:
   - title: "Revisiting Pipeline Parallelism for LLM Serving"
     authors: "Soonjae Hwang and Jeongseob Ahn"
     venue: "USENIX Symposium on Operating Systems Design and Implementation (OSDI), July 2026"
+    paper_pdf: "https://www.usenix.org/conference/osdi26/presentation/hwang"
     selected: y
 
   - title: "Towards Segmentation-based Address Translation for LLM Inference"
     authors: "Youngjoon Cheon, Yunho Oh, and Jeongseob Ahn"
-    venue: "IEEE Computer Architecture Letters (CAL), 2026"
+    venue: "IEEE Computer Architecture Letters (CAL), 25(1), January-June 2026"
     paper_pdf: "https://doi.org/10.1109/LCA.2026.3693796"
     selected: y
 
