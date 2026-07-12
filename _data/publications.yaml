@@ -37,6 +37,7 @@ papers:
     authors: "Woohyung Choi, Jinwoo Jeong, Hanhwi Jang, and Jeongseob Ahn"
     venue: "IEEE Computer Architecture Letters (CAL), 24(1), January-June 2025"
     paper_pdf: "https://doi.org/10.1109/LCA.2025.3533588"
+    note: "2025 Best Paper Award Runner-up"
     selected: y
 
   - title: "Accelerating Page Migrations in Operating Systems with Intel DSA"
