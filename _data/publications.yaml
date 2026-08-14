@@ -3,6 +3,7 @@ papers:
     authors: "Soonjae Hwang and Jeongseob Ahn"
     venue: "USENIX Symposium on Operating Systems Design and Implementation (OSDI), July 2026"
     paper_pdf: "https://www.usenix.org/conference/osdi26/presentation/hwang"
+    slides: "assets/talks/hwang_osdi2026_talk.pdf"
     code: "https://github.com/Sys-KU/FastPP"
     selected: y
 
